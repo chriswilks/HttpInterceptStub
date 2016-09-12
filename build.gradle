@@ -1,4 +1,4 @@
-group 'com.capgemini.test'
+group 'net.chriswilkinson.httpinterceptstub'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
