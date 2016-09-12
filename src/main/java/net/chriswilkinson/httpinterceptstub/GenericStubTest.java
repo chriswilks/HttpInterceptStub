@@ -41,7 +41,7 @@ public abstract class GenericStubTest {
     }
 
     // We can add more verification here if we like
-    public void verify(RequestMethod method, String url) {
+    public void verifyUrl(RequestMethod method, String url) {
         switch (method) {
             case GET:
                 cl.verify(1, cl.getRequestedFor(cl.urlEqualTo(url)));

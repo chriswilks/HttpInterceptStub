@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    testCompile group: 'com.github.tomakehurst', name: 'wiremock', version: '1.58'
-    testCompile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
+    compile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'com.github.tomakehurst', name: 'wiremock', version: '1.58'
+    compile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
 }
